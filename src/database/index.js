@@ -6,7 +6,7 @@ const pool = mysql.createConnection({
 host: "localhost",
 user: "root",
 password: "",
-database: "taskmanager"
+database: "pi_auditorio"
 }).promise()
 //await "espere uma promessa"
 

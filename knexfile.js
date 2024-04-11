@@ -8,7 +8,7 @@ module.exports = {
       host: 'localhost',
       user: 'root',
       password: '',
-      database: 'taskmanager_knex'
+      database: 'pi_auditorio'
     },
     migrations: {
       directory: path.resolve(
