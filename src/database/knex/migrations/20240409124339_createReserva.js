@@ -8,7 +8,7 @@ exports.up = (knex) => {
         table.string("color").notNullable();
         table.string('start')
         table.string('end')
-        table.string("callendar_id").nullable();
+        
 
         table.integer("cadastre_id").unsigned().index().references("id").inTable("cadastre")
     })
